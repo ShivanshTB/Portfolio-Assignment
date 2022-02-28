@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b7926f3752.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">coder</a>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- home page -->
+    <section>
+        <div class="home">
+            <article>
+                <div class="heading">
+                    <em> <span class="name">Hi, I'm Shivansh</span><br>
+                        <p>Frondend Developer</p>
+                    </em>
+                    <p class="quotes">Let's build something amazing Together.</p>
+                </div>
+            </article>
+        </div>
+
+        <!-- work page -->
+        <div id="work">
+            <article>
+                <div class="work-heading">
+                    <h1>My Work</h1>
+                    <span>Here are some images of my work.</span>
+                </div>
+                <div class="snaps">
+                    <div class="worksnap">
+                        <img src="images/work1.png" alt="Work1">
+                    </div>
+                    <div class="worksnap">
+                        <img src="images/work2.jpg" alt="Work2">
+                    </div>
+                    <div class="worksnap">
+                        <img src="images/work3.jpg" alt="Work3">
+                    </div>
+                    <div class="worksnap">
+                        <img src="images/work4.jpg" alt="Work4">
+                    </div>
+                    <div class="worksnap">
+                        <img src="images/work5.png" alt="Work5">
+                    </div>
+                    <div class="worksnap">
+                        <img src="images/work6.jpg" alt="Work6">
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- about page -->
+        <div id="about">
+            <article>
+                <h1>About Me</h1>
+                <div class="about">
+                    <div class="myself">
+                        <div class="img">
+                            <figure>
+                                <img src="images/bitmoji.jpeg" alt="Me">
+                            </figure>
+                        </div>
+                        <div class="lines">
+                            <p><br>I'm Shivansh Sharma - a <b>Frondend Developer</b> from Punjab, India. <br> I have
+                                completeed my Bachlor's in Computer Application.<br>My expertise is in the area of responsive design. With every line of code, I stive to make the web a beautiful place.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="handles">
+                        <span>Follow Me On</span><br>
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <!-- whatsapp -->
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                        <!-- facebook -->
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <!-- you tube -->
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <!-- twitter -->
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                            target="_blank"><i class="fa fa-twitter"></i></a>
+                        <!-- linkedin -->
+                        <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <!-- snapchat -->
+                        <a href="https://accounts.snapchat.com/accounts/login?client_id=geo" target="_blank"><i
+                                class="fa fa-snapchat"></i></a>
+                    </div>
+                </div>
+        </div>
+        </article>
+        </div>
+
+        <!-- contact page -->
+        <div id="contact">
+            <article>
+                <h1>Contact Us</h1>
+                <div class="greeting">
+                    <em>
+                        <span>Thanks for taking the time to reach out.</span><br>
+                        <span>How can I help you?</span>
+                    </em>
+                </div>
+                <div class="form">
+                    <form  onsubmit="this.reset();">
+                        <div class="info">
+                            <!-- <label for="name">Full Name</label> -->
+                            <div class="input">
+                                <input type="text" id="name" placeholder="Full Name" autocomplete="on" maxlength="25" required>
+                                <input type="Email" id="email" placeholder="Email" autocomplete="on" maxlength="25" required><br>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <!-- <label for="message">Message</label> -->
+                            <div class="input">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Message" minlength="10" maxlength="250" required></textarea>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <button type="submit" onclick="alert('Thank You, We will contact soon.')">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
